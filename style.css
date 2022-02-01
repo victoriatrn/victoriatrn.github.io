@@ -239,13 +239,13 @@ div.center > figcaption:nth-child(2) {
   #contacts > a > img {
 	display: inline-block;
 	float:left;
-	margin: 0px;
+	margin-left: 300px;
 	padding: 0px;
   }
 
   #contacts > a  {
 	
-	align-items: center;
+	
 	display: inline-block;
 	text-decoration: none;
 	color: black;
@@ -253,7 +253,7 @@ div.center > figcaption:nth-child(2) {
 
 #contacts {
 	margin-top: 70px;
-	display: flex;
+	
 	align-content: center;
 }
 
