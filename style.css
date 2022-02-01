@@ -78,9 +78,7 @@
 	
 }
 
-#instagram {
-	float: right;
-}
+
 
 #columnscontact {
 	display: flex;
@@ -225,6 +223,46 @@ div.center > figcaption:nth-child(2) {
 }
 
 
+  
+  .bg {
+	background-image: url("contact_photo/mainbleu.png");
+  
+	/* Full height */
+	height: 100%;
+  
+	/* Center and scale the image nicely */
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+  }
+
+  #contacts > a > img {
+	display: inline-block;
+	float:left;
+	margin: 0px;
+	padding: 0px;
+  }
+
+  #contacts > a  {
+	
+	align-items: center;
+	display: inline-block;
+	text-decoration: none;
+	color: black;
+}
+
+#contacts {
+	margin-top: 70px;
+	display: flex;
+	align-content: center;
+}
+
+.figcationsright {
+	float: right;
+	font-family: poppins;
+	padding-left: 50px;
+	padding-top: 16px;
+}
 
 
 
