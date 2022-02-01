@@ -223,6 +223,12 @@ div.center > figcaption:nth-child(2) {
 }
 
 
+@media (max-width: 800px) {
+	#gallery {
+	  flex-direction: column;
+	}
+  }
+
   
   .bg {
 	background-image: url("contact_photo/mainbleu.png");
