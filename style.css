@@ -15,13 +15,13 @@
 
 #logo {
 	position: absolute;
-    left: 40px;
-    top: 15px;
+    left: 2.8em;
+    top: 1.07em;
 }
 
 #titre
 {
-	padding-top: 40px;
+	padding-top: 2.85em;
 	font-size: 17px;
 	font-style: bold;
 	color: rgb(0, 0, 0);
@@ -139,53 +139,54 @@
 }
 
 #photo5 {
-	margin-top: 100px;
-	width: 600px;
+	margin-top: 7.15em;
+	width: 42.8em;
 }
 
 #photo15 {
-	width: 500px;
+	width: 35em;
 }
 
 #photo13 {
-	width: 400px;
+	width: 25.8em;
 
 }
 #photo17 {
-	width: 590px;
+	width: 42em;
 
 }
 #photo16 {
-	width: 500px;
+	width: 35em;
 
 }
 #photo12 {
-	width: 500px;
+	width: 35em;
 
 }
 
 #photo8 {
 	position: relative;
-	width: 500px;
+	width: 35em;
 	display: block;
 }
 
 .firstrightelement {
-	margin-top: -200px;
+	margin-top:-7em;
+
 }
 
 .posterblue {
 	position: absolute;
-	margin-left: 100px;
-	margin-top: -50px;
-	border: 1px solid rgb(0, 0, 0);
+	margin-left: 7.14em;
+	margin-top: -3.57em;
+	border: 0.07em solid rgb(0, 0, 0);
 }
 
 .posterorange {
-	margin-left: 115px;
-	margin-top: -800px;
+	margin-left: 8.2em;
+	margin-top: -57.14em;
 	position: absolute;
-	border: 1px solid rgb(0, 0, 0);
+	border: 0.07em solid rgb(0, 0, 0);
 }
 
 .orangeball {
@@ -210,7 +211,7 @@
 
 
 .incolorleftcol {
-	margin-top: -200px;
+	margin-top: -5em;
 }
 
 div.center > figcaption:nth-child(2) {
