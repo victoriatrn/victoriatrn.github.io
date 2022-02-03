@@ -311,10 +311,15 @@ div.center > figcaption:nth-child(2) {
 }
 
 #contacts {
-	margin-top: 70px;
-	
+	margin-top: 30px;
 	align-content: center;
 }
+
+#mail {
+	margin-top: 120px;
+}
+
+
 
 .figcationsright {
 	float: right;
