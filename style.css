@@ -480,3 +480,24 @@ float: right;
 
 
 
+
+
+/* ARKAIK */
+
+#arkaik1 {
+	width: 37em;
+	height: auto;
+	margin-top: 3em;
+	margin-left: 25em;
+}
+
+#arkaik9 {
+	position: absolute;
+	rotate: 15deg;
+}
+
+.margintopnegative {
+	margin-top: -4.28em;
+	margin-left: -3.57em;
+	padding-right: 5em;
+}
