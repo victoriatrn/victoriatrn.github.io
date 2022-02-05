@@ -105,6 +105,8 @@
 }
 
 #column2 {
+	font-size: 18px;
+	margin-top: -3em;
 	padding-top: 130px;
 }
 .title {
@@ -196,8 +198,8 @@
 
 .blue {
 	position: relative;
-	margin-left: 217px;
-	margin-top: 125px;
+	margin-left: 34.68em;
+	margin-top: 0.18em;
 }
 
 .red {
@@ -312,7 +314,7 @@ div.center > figcaption:nth-child(2) {
 }
 
 #contacts {
-	margin-top: 30px;
+	margin-top: 5px;
 	align-content: center;
 }
 
@@ -580,8 +582,8 @@ grid-template-rows: 20em 20em;
 
 
 .immersion {
-	margin-top: 7em;
-	background-color:rgb(118, 137, 255);
+	margin-top: 12em;
+	background-color:#99ccff;
 }
 
 .immersionpicture {
@@ -626,6 +628,7 @@ grid-template-rows: 20em 20em;
 
 #gallery .columnimmersion {
 	width: 70%;
+	background-color: white;
 }
 
 
