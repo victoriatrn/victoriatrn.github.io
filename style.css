@@ -125,6 +125,7 @@
 	grid-column-end: 5;
 	grid-row-start: 5;
 	grid-row-end: 7;
+	z-index: 2;
 }
 
 #redgrid {
@@ -164,7 +165,7 @@ position: relative;
 	height: auto;
 	float: right;
 	position: absolute;
-	top: 40px;
+	top: 29px;
 	right: 40px;
 }
 
@@ -255,8 +256,8 @@ position: relative;
 	border: 0.07em solid rgb(0, 0, 0);
 }
 
-.orangeball {
-	margin-top: 371px;
+#orangeball {
+	z-index: 1;
 	
 }
 
@@ -705,4 +706,102 @@ grid-template-rows: 20em 20em;
 #gallery .columnimmersion div{
 	margin-left: 5em;
 	margin-bottom: 50em;
+}
+
+/* POTHEADS*/
+
+.potheads {
+
+}
+
+.potheadstxt{
+	color: white;
+	font-size: 0.625vw;
+	font-family: agrandir;
+	padding-left: 9.37em;
+	padding-top: 5em;
+}
+
+.potheadstxt h2{
+	padding-top: 1rem;
+	font-family: poppinsreg;
+}
+
+.gallerypotheads{
+	background-color: white;
+	align-items: center;
+	justify-items: center;
+	margin-top: 6em;
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	grid-template-rows: repeat(8, 1fr);
+	grid-gap: 5em;
+	position: relative;
+	padding-left: 2em;
+	padding-right: 2em;
+}
+
+.gallery__item--1-pothead{
+	grid-column-start: 1;
+	grid-column-end: 2;
+	grid-row-start: 1;
+	grid-row-end: 9;
+	z-index: 2;
+}
+
+.gallery__item--2-pothead{
+	grid-column-start: 3;
+	grid-column-end: 4;
+	grid-row-start: 1;
+	grid-row-end: 9;
+}
+
+.gallery__item--3-pothead{
+	grid-column-start: 2;
+	grid-column-end: 3;
+	grid-row-start: 1;
+	grid-row-end: 9;
+}
+
+.bluebackground {
+	background-color: blue;
+	grid-column: 1 / 4;
+	grid-row-start: 3;
+	grid-row-end: 9;
+}
+
+.backgroundblue {
+	background-color: rgb(15,31,161);
+	grid-column-start: 1;
+grid-column-end: 4;
+grid-row-start: 2;
+grid-row-end: 9;
+width: 150%;
+height: 100%;
+}
+
+.gallerypotheads_twobytwo {
+	background-color: rgb(15,31,161);
+
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+	grid-template-rows: repeat(1, 1fr);
+	grid-gap: 15rem;
+	padding-top: 5em;
+margin-left: 10rem;
+margin-right: 10rem;
+}
+
+.gallery__item--4-potheads {
+	grid-column-start: 1;
+grid-column-end: 2;
+grid-row-start: 1;
+grid-row-end: 2;
+}
+
+.gallery__item--5-potheads {
+	grid-column-start: 2;
+grid-column-end: 3;
+grid-row-start: 1;
+grid-row-end: 2;
 }
