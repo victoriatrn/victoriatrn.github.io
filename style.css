@@ -805,3 +805,39 @@ grid-column-end: 3;
 grid-row-start: 1;
 grid-row-end: 2;
 }
+
+/* PREMIER */
+
+.premiertxt{
+	color: white;
+	font-size: 0.625vw;
+	font-family: agrandir;
+	padding-left: 9.37em;
+	padding-top: 5em;
+}
+
+.premierstxt h2{
+	padding-top: 1rem;
+	font-family: poppinsreg;
+}
+
+.gallerypremier{
+	background-color: rgb(59, 107, 93);
+	align-items: center;
+	justify-items: center;
+	margin-top: 6em;
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	grid-template-rows: repeat(1, 1fr);
+	grid-gap: 5em;
+	position: relative;
+	padding-left: 2em;
+	padding-right: 2em;
+}
+
+.gallery__item--2-premier{
+	grid-column-start: 2;
+	grid-column-end: 4;
+	grid-row-start: 1;
+	grid-row-end: 2;
+}
