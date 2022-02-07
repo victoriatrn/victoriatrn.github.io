@@ -22,7 +22,7 @@
 #titre
 {
 	padding-top: 2.85em;
-	font-size: 17px;
+	font-size: 0.9837962962962963vw;
 	font-style: bold;
 	color: rgb(0, 0, 0);
 	text-align: center;
@@ -44,21 +44,21 @@
 #DA
 {
 	font-family: agrandir;
-	font-size: 13px;
-	padding-bottom: 30px;
+	font-size: 0.7523148148148148vw;
+	padding-bottom: 1.875em;
 }
 
 #menu a {
-	margin-left: 20px;
+	margin-left: 1.25em;
 	font-family: agrandir;
 	font-style: bold;
 	color: black;
-	font-size: 13px;
+	font-size: 0.7523148148148148vw;
 	text-decoration: none;
 
 }
 #menu h2 {
-	word-spacing: 200px;
+	word-spacing: 12.5em;
 }
 
 #gallery {
@@ -87,7 +87,7 @@
 }
 
 .gallery__img {
-	margin-right: 100px;
+	margin-right: 6.25em;
 }
 
 .gallery__item--1 {
@@ -151,8 +151,8 @@ position: relative;
   }
   
 #columnscontact .column {
-	padding-left: 150px;
-	padding-right: 150px;
+	padding-left: 9.375em;
+	padding-right: 9.375em;
 	flex: 50%;
   }
 
@@ -161,21 +161,21 @@ position: relative;
 
 #menu img {
 
-	width: 50px;
+	width: 3.125em;
 	height: auto;
 	float: right;
 	position: absolute;
-	top: 29px;
-	right: 40px;
+	top: 1.8125em;
+	right: 2.5em;
 }
 
 #column2 {
-	font-size: 18px;
+	font-size: 1.0416666666666667vw;
 	margin-top: -3em;
-	padding-top: 130px;
+	padding-top: 8.125em;
 }
 .title {
-	font-size: 17px;
+	font-size: 0.9837962962962963vw;
 	font-style: bold;
 	color: rgb(0, 0, 0);
 	text-align: left;
@@ -184,12 +184,12 @@ position: relative;
 }
 
 #Experienceprotitre {
-	padding-top: 90px;
-	padding-bottom: 20px;
+	padding-top: 5.625em;
+	padding-bottom: 1.25em;
 }
 
 .blackline {
-	margin-bottom: 80px;
+	margin-bottom: 5em;
 }
 
 .etude {
@@ -197,43 +197,43 @@ position: relative;
 }
 
 #photo6 {
-	width: 600px;
+	width: 34.72222222222222vw;
 }
 
 #photo14 {
-	width: 600px;
+	width: 34.72222222222222vw;
 
 }
 
 #photo5 {
 	margin-top: 7.15em;
-	width: 42.8em;
+	width: 39.629629629629626vw;
 }
 
 #photo15 {
-	width: 35em;
+	width: 32.407407407407405vw;
 }
 
 #photo13 {
-	width: 25.8em;
+	width: 23.88888888888889vw;
 
 }
 #photo17 {
-	width: 42em;
+	width: 34.289vw;
 
 }
 #photo16 {
-	width: 35em;
+	width: 32.407407407407405vw;
 
 }
 #photo12 {
-	width: 35em;
+	width: 32.407407407407405vw;
 
 }
 
 #photo8 {
 	position: relative;
-	width: 35em;
+	width: 32.407407407407405vw;
 	display: block;
 }
 
@@ -263,7 +263,7 @@ position: relative;
 
 .blue {
 	position: relative;
-	margin-left: 34.68em;
+	margin-left: 32.407407407407405vw;
 	margin-top: 0.18em;
 }
 
@@ -274,7 +274,7 @@ z-index: 1;
 }
 
 .firstimage {
-	margin-top: -900px;
+	margin-top: -56.25em;
 	position: relative;
 }
 
@@ -288,19 +288,19 @@ z-index: 1;
 }
 
 div.center > figcaption:nth-child(2) {
-	padding-top: 5px;
-	font-size: 14px;
+	padding-top: 0.3125em;
+	font-size: 0.8101851851851852vw;
 	font-style: bold;
 	color: rgb(0, 0, 0);
 	text-align: left;
 	font-family: agrandir;
 	font-weight: normal;
 	text-align: left;
-	padding-bottom: 250px;
+	padding-bottom: 15.625em;
 }
 
 .titlelist {
-	font-size: 14px;
+	font-size: 0.8101851851851852vw;
 	font-style: bold;
 	color: rgb(0, 0, 0);
 	text-align: left;
@@ -309,8 +309,8 @@ div.center > figcaption:nth-child(2) {
 }
 
 .itemlist {
-	padding-left: 20px;
-	font-size: 14px;
+	padding-left: 1.25em;
+	font-size: 0.8101851851851852vw;
 	font-style: bold;
 	color: rgb(0, 0, 0);
 	text-align: left;
@@ -321,13 +321,13 @@ div.center > figcaption:nth-child(2) {
 
 
 #descriptionDA {
-	font-size: 17px;
+	font-size: 0.9837962962962963vw;
 	font-style: bold;
 	color: rgb(0, 0, 0);
 	text-align: left;
 	font-family: agrandir;
 	font-weight: normal;
-	padding-bottom: 30px;
+	padding-bottom: 1.8225em;
 }
 
 
@@ -339,13 +339,13 @@ div.center > figcaption:nth-child(2) {
 
 	width: 50%;
 	float: left;
-	margin-top: 20px;
+	margin-top: 1.25em;
 
 }
 
 #list1 ol li {
 
-	font-size: 20px;
+	font-size: 1.25em;
 
 }
 
@@ -372,7 +372,7 @@ div.center > figcaption:nth-child(2) {
   #contacts > a > img {
 	display: inline-block;
 	float:left;
-	margin-left: 300px;
+	margin-left: 18.75em;
 	padding: 0px;
   }
 
@@ -385,12 +385,16 @@ div.center > figcaption:nth-child(2) {
 }
 
 #contacts {
-	margin-top: 5px;
+	margin-top: 0.3125em;
 	align-content: center;
 }
 
+.contactimage {
+	width: 3.4722222222222223vw;
+}
+
 #mail {
-	margin-top: 120px;
+	margin-top: 7.5em;
 }
 
 
@@ -398,15 +402,15 @@ div.center > figcaption:nth-child(2) {
 .figcationsright {
 	float: right;
 	font-family: poppins;
-	padding-left: 50px;
-	padding-top: 16px;
+	padding-left: 3.125em;
+	padding-top: 1em;
 }
 
 
 
 .gallery {
 
-	margin-left: 100px;
+	margin-left: 6.25em;
 
 }
 
@@ -418,50 +422,12 @@ td {
   	border: 6px solid transparent;
 
     width: 50%;
-    height: 100px;
+    height: 6.25em;
 }
 
 thead,
 tfoot {
     color: rgb(0, 155, 13);
-}
-
-#backtotop {
-
-	width: 100%;
-	text-align: center;
-	display: block;
-
-}
-
-
-.btnPopup{
-background-color: orangered;
-padding: 1em 2em;
-cursor: pointer;
-}
-
-.btnPopup:hover{
-background-color: rgb(192, 192, 192);}
-
-.overlay {
-display:none;
-}
-
-.popup{
-margin: 10% auto;
-width : 70%;
-background-color: rgb(243, 243, 243);
-padding: 1em;
-box-shadow: 0 15px 20px rgba(0, 0, 0, 0.3);
-border-radius: 5px;
-}
-
-.btnClose {
-float: right;
-font-size:16pt;
-cursor: pointer;
-color: rgb(26, 26, 26);
 }
 
 
@@ -474,10 +440,10 @@ color: rgb(26, 26, 26);
   }
   
   .text {
-	  font-size: 10px;
+	  font-size: 0.5787037037037037vw;
 	  font-family: agrandir;
-	  padding-left: 150px;
-	  padding-top: 200px;
+	  padding-left: 9.375em;
+	  padding-top: 12.5em;
 	width: 21%;
   }
   
@@ -485,7 +451,7 @@ color: rgb(26, 26, 26);
 	font-family: agrandir;
 }
 .text > h2 {
-	padding-top: 10px;
+	padding-top: 0.625em;
 	font-family: poppinsreg;
 }
 
@@ -499,8 +465,8 @@ color: rgb(26, 26, 26);
   
   #text-l:before, #text-r:before {
 	content: ""; 
-	width: 70px; 
-	height: 70px;
+	width: 4.375em; 
+	height: 4.375em;
   }
   
   #text-l:before {
@@ -512,7 +478,7 @@ color: rgb(26, 26, 26);
 	float: left;
   }
 .padtop {
-	margin-top: 500px;
+	margin-top: 31.25em;
 }
 
 .blue {
@@ -520,8 +486,8 @@ color: rgb(26, 26, 26);
 }
   
   .image {
-	padding-top: 50px;
-	height: 600px;
+	padding-top: 3.125em;
+	height: 34.72222222222222vw;
 	position: absolute;
 	left: 37%;
 	margin-left: auto;
@@ -536,7 +502,7 @@ float: right;
   }
 
   .imright {
-	  padding-top: 50px;
+	  padding-top: 3.125em;
   }
 
 
@@ -546,7 +512,7 @@ float: right;
 	display: grid;
 }
 .paddbot {
-	padding-bottom: 100px;
+	padding-bottom: 6.25em;
 }
 
 
@@ -587,8 +553,8 @@ float: right;
 .wrapper {
 	display: grid;
 	grid-template-columns: repeat(3, 1fr);
-	grid-gap: 10px;
-	grid-auto-rows: minmax(100px, auto);
+	grid-gap: 0.625em;
+	grid-auto-rows: minmax(6.25em, auto);
 	width: 20em;
 margin-top: -10em;
 display: inline-grid;
@@ -605,7 +571,7 @@ grid-template-rows: 20em 20em;
 .columnarkaik {
 	float: left;
 	width: 31%;
-	padding-right: 10px;
+	padding-right: 0.625em;
   }
   
   /* Clear floats after the columns */
@@ -684,16 +650,16 @@ grid-template-rows: 20em 20em;
 }
 
 .textimmersion {
-	font-size: 10px;
+	font-size: 0.5787037037037037vw;
 	font-family: agrandir;
-	padding-left: 150px;
+	padding-left: 9.375em;
 	margin-top: -5em;
 	margin-bottom: 40em;
   width: 50%;
 }
 
 .textimmersion > h2 {
-	padding-top: 10px;
+	padding-top: 0.625em;
 	font-family: poppinsreg;
 }
 
