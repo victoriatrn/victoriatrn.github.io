@@ -356,7 +356,8 @@ div.center > figcaption:nth-child(2) {
 	}
   }
 
-  
+
+
   .bg {
 	background-image: url("contact_photo/mainbleu.png");
   
@@ -368,6 +369,16 @@ div.center > figcaption:nth-child(2) {
 	background-repeat: no-repeat;
 	background-size: cover;
   }
+
+.mainblueback {
+	
+        background-image: url("contact_photo/mainbleu.png");
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-position: right;
+        background-size: 50%;
+      
+}
 
   #contacts > a > img {
 	display: inline-block;
@@ -524,10 +535,10 @@ float: right;
 /* ARKAIK */
 
 #arkaik1 {
-	width: 37em;
+	width: 34.25925925925926vw;
 	height: auto;
-	margin-top: 3em;
-	margin-left: 25em;
+	margin-top: 2.7777777777777777vw;
+	margin-left: 23.14814814814815vw;
 	z-index: 2;
 }
 
@@ -535,32 +546,34 @@ float: right;
 	position: absolute;
 	rotate: 15deg;
 	z-index: 1;
+	width: 50vw;
 }
 
 .margintopnegative {
-	margin-top: -9.28em;
-	margin-left: -3.57em;
-	padding-right: 5em;
+	margin-top: -4.593vw;;
+	margin-left: -3.3055555555555554vw;
+	padding-right: 4.62962962962963vw;
 }
 
 #arkaik13 {
-	margin-top: 8em;
-	margin-left: 70em;
+	margin-top: 7.407407407407407vw;
+	margin-left: 64.81481481481481vw;
 	z-index: 3;
 	position: relative;
+	width: 29vw;
 }
 
 .wrapper {
 	display: grid;
 	grid-template-columns: repeat(3, 1fr);
-	grid-gap: 0.625em;
+	grid-gap: 0.5787037037037037vw;
 	grid-auto-rows: minmax(6.25em, auto);
-	width: 20em;
-margin-top: -10em;
+	width: 18.51851851851852vw;
+margin-top: -9.25925925925926vw;
 display: inline-grid;
 
-grid-template-columns: 20em 20em 20em;
-grid-template-rows: 20em 20em;
+grid-template-columns: 18.51851851851852vw 18.51851851851852vw 18.51851851851852vw;
+grid-template-rows: 18.51851851851852vw 18.51851851851852vw;
 }
 
 .six {
@@ -571,7 +584,7 @@ grid-template-rows: 20em 20em;
 .columnarkaik {
 	float: left;
 	width: 31%;
-	padding-right: 0.625em;
+	padding-right: 0.5787037037037037vw;
   }
   
   /* Clear floats after the columns */
@@ -589,30 +602,33 @@ grid-template-rows: 20em 20em;
 .grid3by2 {
 	z-index: 1;
 	position: relative;
-	width: 40em;
-	margin-top: -23em;
-	margin-left: 6em;
+	width: 37.03703703703704vw;
+	margin-top: -21.296296296296298vw;
+	margin-left: 5.555555555555555vw;
   
 }
 
 #arkaik10 {
 	position: relative;
-	margin-top: -8em;
+	margin-top: -7.407407407407407vw;
 	rotate: -30deg;
+	width: 81vw;
 
 }
 
 #arkaik8 {
 	float: right;
 	position:absolute;
-	margin-top: 5em;
-	margin-left: -17.5em;
+	margin-top: 4.62962962962963vw;
+	margin-left: -16.203703703703702vw;
+	width: 29vw;
 }
 
 #arkaik11 {
 	position:absolute;
-	margin-top: 20em;
-	margin-left: -76.5em;
+	margin-top: 18.51851851851852vw;
+	margin-left: -70.83333333333333vw;
+	width: 29vw;
 }
 
 /* IMMERSION */
