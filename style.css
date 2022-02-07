@@ -678,7 +678,7 @@ margin-bottom: 5em;
 .galleryimmersion{
 display: grid;
 grid-template-columns: repeat(2, 1fr);
-grid-template-rows: repeat(6, 1fr);
+grid-template-rows: repeat(8, 1fr);
 grid-gap: 4.62962962962963vw;
 margin-left: 6.481481481481482vw;
 margin-right: 6.481481481481482vw;
@@ -717,6 +717,24 @@ position: relative;
 	grid-column-end: 2;
 	grid-row-start: 3;
 	grid-row-end: 7;
+	margin-top: -16em;
+	z-index: 2;
+}
+
+.gallery__item--7--immersion {
+	grid-column-start: 2;
+	grid-column-end: 3;
+	grid-row-start: 5;
+	grid-row-end: 8;
+	margin-top: -16em;
+	z-index: 2;
+}
+
+.gallery__item--8--immersion {
+	grid-column-start: 1;
+	grid-column-end: 2;
+	grid-row-start: 5;
+	grid-row-end: 8;
 	margin-top: -16em;
 	z-index: 2;
 }
