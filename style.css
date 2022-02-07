@@ -23,6 +23,7 @@
 	position: absolute;
     left: 2.8em;
     top: 1.07em;
+	width: 7.407407407407407vw;
 }
 
 #titre
@@ -42,7 +43,7 @@
 	color: rgb(0, 0, 0);
 	text-align: center;
 	margin-bottom: 1.25em;
-	
+	margin-top: 0.7527777777777778vw
 }
 
 
@@ -64,11 +65,14 @@
 
 }
 #menu h2 {
-	word-spacing: 12.5em;
+	word-spacing: 1.3888888888888888vw;
+	float: right;
+margin-right: 1.8518518518518519vw;
 }
 
 #gallery {
 	display: flex;
+	margin-top: 5vw;
   }
   
 #gallery .column {
@@ -192,7 +196,6 @@ position: relative;
 
 #menu img {
 
-	width: 3.125em;
 	height: auto;
 	float: right;
 	position: absolute;
