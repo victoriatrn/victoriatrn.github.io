@@ -13,6 +13,12 @@
 	src: url(Poppins-Regular.ttf);
 }
 
+@media only screen and (min-width: 1026px) {
+    #logo {
+        display: none;
+    }
+}
+
 #logo {
 	position: absolute;
     left: 2.8em;
