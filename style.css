@@ -138,6 +138,15 @@
 	z-index: 2;
 }
 
+.gallery__item--6 {
+	grid-column-start: 1;
+	grid-column-end: 3;
+	grid-row-start: 7;
+	grid-row-end: 7;
+	margin-top: -16em;
+	z-index: 2;
+}
+
 #redgrid {
 	margin-top: 1em;
 	grid-row: 4/8;
