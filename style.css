@@ -13,7 +13,7 @@
 	src: url(Poppins-Regular.ttf);
 }
 
-@media only screen and (min-width: 1026px) {
+@media only screen and (max-width: 1026px) {
     #logo {
         display: none;
     }
@@ -118,7 +118,7 @@
 	grid-column-end: 3;
 	grid-row-start: 4;
 	grid-row-end: 6;
-	z-index: 2;
+
   }
 
 
