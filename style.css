@@ -584,17 +584,37 @@ float: right;
 
 
 
-
+.rel {
+	position: relative;
+}
 
 
 
 /* ARKAIK */
 
+#mastarkaik {
+	margin-bottom: -15vw;
+}
+
+.textarkaik {
+	text-align: center;
+	position: relative;
+	width: 70%;
+	padding-left: 0;
+	margin-left: 14vw;
+margin-right: 14vw;
+margin-bottom: 5vw;
+}
+
+.rotate {
+	rotate: 25deg;
+}
+
 #arkaik1 {
 	width: 34.25925925925926vw;
 	height: auto;
 	margin-top: 2.7777777777777777vw;
-	margin-left: 23.14814814814815vw;
+	margin-left: -31.852vw;
 	z-index: 2;
 }
 
