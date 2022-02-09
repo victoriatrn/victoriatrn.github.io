@@ -968,3 +968,19 @@ grid-row-end: 2;
 	grid-row-end: 2;
 }
 
+/* VIETNAM*/
+
+#galleryvietnam {
+	grid-template-columns: repeat(2, 1fr);
+grid-template-rows: repeat(3, 1fr);
+margin-top: 0;
+}
+
+#frontphotovietnam {
+	position: relative;
+	height: 48.722vw
+}
+
+#beforegalleryvietnam {
+	margin-bottom: -5vw;
+}
