@@ -753,6 +753,18 @@ z-index: 2;
 position: relative;
 }
 
+.galleryimmersionquatuor {
+	grid-gap: 4.62962962962963vw;
+	display: grid;
+grid-template-columns: repeat(4, 1fr);
+grid-template-rows: repeat(1, 1fr);
+
+margin-left: 6.481481481481482vw;
+margin-right: 6.481481481481482vw;
+z-index: 2;
+position: relative;
+}
+
 .galleryimmersion{
 display: grid;
 grid-template-columns: repeat(2, 1fr);
@@ -870,6 +882,27 @@ position: relative;
 #gallery .columnimmersion div{
 	margin-left: 5em;
 	margin-bottom: 50em;
+}
+
+.columnimmersionleft {
+	margin-left: 4vw;
+margin-top: -8vw;
+}
+
+.immersionphoto3 {
+
+	height: 38vw;
+}
+
+.immersionphoto {
+	height: 38vw;
+width: auto;
+}
+
+#immersionphoto1 {
+	width: 38vw;
+height: auto;
+margin-bottom: 8vw;
 }
 
 /* POTHEADS*/
@@ -1059,3 +1092,21 @@ margin-top: 0;
 	gap: 8vw;
 }
 
+/* ILLU*/ 
+
+#galleryillu {
+	grid-template-columns: repeat(4, 1fr);
+	grid-template-rows: repeat(5, 1fr);
+	margin-top: 0;
+	margin-bottom: 5vw;
+}
+
+#column2immersion {
+	font-size: 1.0416666666666667vw;
+	margin-top: -8em;
+	padding-top: 8.125em;
+}
+
+#column2immersion img {
+	margin-bottom: 8vw;
+}
