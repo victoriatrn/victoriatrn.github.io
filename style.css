@@ -25,7 +25,7 @@
 #titre
 {
 	padding-top: 2.85em;
-	font-size: 0.9837962962962963vw;
+	font-size: 1vw;
 	font-style: bold;
 	color: rgb(0, 0, 0);
 	text-align: center;
@@ -948,7 +948,7 @@ grid-row-end: 2;
 }
 
 .gallerypremier{
-	background-color: rgb(59, 107, 93);
+
 	align-items: center;
 	justify-items: center;
 	margin-top: 6em;
@@ -966,6 +966,13 @@ grid-row-end: 2;
 	grid-column-end: 4;
 	grid-row-start: 1;
 	grid-row-end: 2;
+}
+
+.videopremier {
+	margin-top: 5vw;
+	width: 50vw;
+	margin-left: 24vw;
+	margin-right: 24vw;
 }
 
 /* VIETNAM*/
