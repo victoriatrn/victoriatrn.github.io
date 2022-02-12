@@ -532,12 +532,13 @@ tfoot {
   }
   
   .text {
-	  font-size: 0.5787037037037037vw;
+	  font-size: 0.7vw;
 	  font-family: agrandir;
 	  padding-left: 9.375em;
 	  padding-top: 12.5em;
 	width: 21%;
   }
+
   
 .text > h1 {
 	font-family: agrandir;
