@@ -206,6 +206,7 @@ rotate: 15deg;
 	z-index: 2;
 position: relative;
 margin-top: -29vw;
+margin-bottom: 5vw;
 
 }
 
@@ -1139,7 +1140,7 @@ margin-top: 0;
 
 #galleryillu {
 	grid-template-columns: repeat(4, 1fr);
-	grid-template-rows: repeat(5, 1fr);
+	grid-template-rows: repeat(3, 1fr);
 	margin-top: 0;
 	margin-bottom: 5vw;
 }
@@ -1171,7 +1172,7 @@ margin-top: 0;
   @media only screen and (min-width: 800px) {
 	#galleryillu {
 		grid-template-columns: repeat(3, 1fr);
-		grid-template-rows: repeat(5, 1fr);
+		grid-template-rows: repeat(3, 1fr);
 		margin-top: 0;
 		margin-bottom: 5vw;
 	}
@@ -1180,7 +1181,7 @@ margin-top: 0;
   @media only screen and (min-width: 1000px) {
 	#galleryillu {
 		grid-template-columns: repeat(4, 1fr);
-		grid-template-rows: repeat(5, 1fr);
+		grid-template-rows: repeat(3, 1fr);
 		margin-top: 0;
 		margin-bottom: 5vw;
 	}
