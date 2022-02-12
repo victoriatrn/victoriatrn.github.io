@@ -1086,6 +1086,24 @@ grid-template-rows: repeat(3, 1fr);
 margin-top: 0;
 }
 
+@media screen and (max-width: 600px) {
+	#galleryvietnam {
+		grid-template-columns: repeat(1, 1fr);
+		grid-template-rows: repeat(6, 1fr);
+		margin-top: 0;
+	}
+  }
+
+  @media screen and (min-width: 700px) {
+	#galleryvietnam {
+		grid-template-columns: repeat(2, 1fr);
+		grid-template-rows: repeat(6, 1fr);
+		margin-top: 0;
+	}
+  }
+
+
+
 #frontphotovietnam {
 	position: relative;
 	height: 48.722vw
