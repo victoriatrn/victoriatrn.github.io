@@ -166,11 +166,15 @@ float: right;
 	grid-row-end: 9;
 	margin-top: -16em;
 	z-index: 2;
+	width: 70%;
+	align-self: center;
+	margin-top: auto;
+margin-bottom: auto;
 }
 
 #photo7grid {
-	margin-left: 3vw;
-	width: 80%;
+	margin-left: 5vw;
+	width: 70%;
 }
 
 #redgrid {
