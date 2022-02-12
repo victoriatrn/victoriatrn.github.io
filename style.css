@@ -180,6 +180,7 @@ margin-bottom: auto;
 #redgrid {
 	margin-top: 1em;
 	grid-row: 5/8;
+	position: absolute;
 }
 
 #bleuforme {
@@ -330,7 +331,7 @@ margin-right: 14vw;
 	z-index: 1;
 	grid-row-end: 8;
 	margin-top: 11vw;
-	margin-left: -8vw;
+	margin-left: -3vw;
 	
 }
 
@@ -348,6 +349,9 @@ margin-right: 14vw;
 	
 position: relative;
 z-index: 1;
+margin-left: 10vw;
+margin-top: -9vw;
+width: 90%;
 }
 
 .firstimage {
