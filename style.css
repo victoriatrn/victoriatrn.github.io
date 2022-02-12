@@ -18,6 +18,96 @@
 	cursor: url("curseur2.png"), default;
 }
 
+
+.navigationbar {
+    margin: 0;
+    padding: 0;
+}
+
+#navigation-container {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+	margin-top: 2vw;
+margin-left: 2vw;
+margin-right: 2vw;
+}
+
+ul {
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+}
+
+a {
+
+	word-spacing: 3vw;
+	font-family: agrandir;
+	font-style: bold;
+	color: black;
+	font-size: 0.7523148148148148vw;
+	
+
+    text-decoration: none;
+    color: black;
+    
+    
+    padding: 5px 15px;
+    
+}
+
+li {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+	padding-left: 2vw;
+}
+
+/* TEST */ 
+
+ /* Style the navigation bar */
+ .navbar {
+	width: 100%;
+	background-color: #555;
+	overflow: auto;
+  }
+  
+  /* Navbar links */
+  .navbar a {
+	float: left;
+	text-align: center;
+	padding: 12px;
+	color: white;
+	text-decoration: none;
+	font-size: 17px;
+  }
+  
+  /* Navbar links on mouse-over */
+  .navbar a:hover {
+	background-color: #000;
+  }
+  
+  /* Current/active navbar link */
+  .active {
+	background-color: #04AA6D;
+  }
+  
+  /* Add responsiveness - will automatically display the navbar vertically instead of horizontally on screens less than 500 pixels */
+  @media screen and (max-width: 500px) {
+	.navbar a {
+	  float: none;
+	  display: block;
+	}
+  } 
+
+
+
+
+
+
+
+
 .standard{
 	display:block !important;
 	}
@@ -36,9 +126,9 @@
 
 
 #logo {
-	position: absolute;
+/* 	position: absolute;
     left: 2.8em;
-    top: 1.07em;
+    top: 1.07em; */
 	width: 7.407407407407407vw;
 }
 
@@ -57,7 +147,6 @@
 
 #menu
 {
-	padding-top: 0.93em;
 	color: rgb(0, 0, 0);
 	text-align: center;
 	margin-bottom: 1.25em;
@@ -242,11 +331,11 @@ margin-bottom: 5vw;
 
 #menu img {
 
-	height: auto;
+/* 	height: auto;
 	float: right;
 	position: absolute;
 	margin-top: 1.5vw;
-	right: 2.5em;
+	right: 2.5em; */
 }
 
 #column2 {
@@ -618,6 +707,7 @@ float: right;
 	display: grid;
 	width: 100%;
 	margin-top: 5vw;
+	margin-bottom: 5vw
 }
 .paddbot {
 	padding-bottom: 6.25em;
@@ -766,6 +856,10 @@ grid-template-rows: 18.51851851851852vw 18.51851851851852vw;
 }
 
 /* IMMERSION */
+
+#mastimmersion {
+	margin-bottom: 10vw;
+}
 
 .gallery__img_immersion {
 	margin-right: 6.25em;
@@ -930,10 +1024,7 @@ position: relative;
 margin-top: -8vw;
 }
 
-.immersionphoto3 {
 
-	height: 38vw;
-}
 
 .immersionphoto {
 	height: 38vw;
@@ -1153,17 +1244,11 @@ margin-top: 0;
 
 /* ILLU*/ 
 
-#galleryillu {
-	grid-template-columns: repeat(4, 1fr);
-	grid-template-rows: repeat(3, 1fr);
-	margin-top: 0;
-	margin-bottom: 5vw;
-}
 
 
 
 
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 900px) {
 	#galleryillu {
 		grid-template-columns: repeat(2, 1fr);
 		grid-template-rows: repeat(5, 1fr);
@@ -1172,7 +1257,7 @@ margin-top: 0;
 	}
   }
 
-  @media screen and (max-width: 1200px) {
+  @media screen and (min-width: 900px) and (max-width: 1000px){
 	#galleryillu {
 		grid-template-columns: repeat(3, 1fr);
 		grid-template-rows: repeat(3, 1fr);
