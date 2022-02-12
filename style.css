@@ -13,14 +13,11 @@
 	src: url(Poppins-Regular.ttf);
 }
 * {
-	cursor: url("curseur.png"), auto;
+	
+	cursor: url("curseur.png"), text;
+	cursor: url("curseur2.png"), default;
 }
 
-body {
-    cursor: url('curseur.cur'),     /* Modern browsers    */
-            url('curseur.cur'),        /* Internet Explorer  */
-            move;                                       /* Older browsers     */
-}
 
 
 #logo {
@@ -1098,7 +1095,7 @@ margin-top: 0;
   @media screen and (min-width: 700px) {
 	#galleryvietnam {
 		grid-template-columns: repeat(2, 1fr);
-		grid-template-rows: repeat(6, 1fr);
+		grid-template-rows: repeat(3, 1fr);
 		margin-top: 0;
 	}
   }
