@@ -12,7 +12,15 @@
 	font-family: poppinsreg;
 	src: url(Poppins-Regular.ttf);
 }
+* {
+	cursor: url("curseur.png"), auto;
+}
 
+body {
+    cursor: url('curseur.cur'),     /* Modern browsers    */
+            url('curseur.cur'),        /* Internet Explorer  */
+            move;                                       /* Older browsers     */
+}
 
 
 #logo {
@@ -24,7 +32,9 @@
 
 #titre
 {
+	margin-top: 3vw;
 	padding-top: 2.85em;
+	padding-bottom: 0.3vw;
 	font-size: 1vw;
 	font-style: bold;
 	color: rgb(0, 0, 0);
@@ -49,6 +59,7 @@
 	font-family: agrandir;
 	font-size: 0.7523148148148148vw;
 	padding-bottom: 1.875em;
+	margin-bottom: 2vw;
 }
 
 #menu a {
@@ -61,7 +72,9 @@
 
 }
 #menu h2 {
-	word-spacing: 20vw;
+	word-spacing: 3vw;
+margin-right: 3vw;
+float: right;
 
 
 }
@@ -266,8 +279,7 @@ margin-right: 14vw;
 }
 
 #photo13 {
-	width: 23.88888888888889vw;
-
+	width: 34.72222222222222vw;
 }
 #photo17 {
 	width: 34.289vw;
@@ -309,10 +321,14 @@ margin-right: 14vw;
 
 #orangeball {
 	z-index: 1;
-grid-row-end: 8;
-margin-top: 8vw;
-margin-left: 2vw;
+	grid-row-end: 8;
+	margin-top: 11vw;
+	margin-left: -8vw;
 	
+}
+
+#orangephotoball {
+	position: absolute;
 }
 
 .blue {
