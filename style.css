@@ -806,11 +806,11 @@ grid-template-rows: 18.51851851851852vw 18.51851851851852vw;
 	  margin-top: 10vw;
   }
 
-  @media screen and (max-width: 600px) {
+/*   @media screen and (max-width: 600px) {
 	.columnarkaik {
 	  width: 100%;
 	}
-  }
+  } */
 .grid3by2 {
 	z-index: 1;
 	position: relative;
