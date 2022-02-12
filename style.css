@@ -18,6 +18,21 @@
 	cursor: url("curseur2.png"), default;
 }
 
+.standard{
+	display:block !important;
+	}
+
+#photo6:hover .standard{
+	display:none !important;
+	}
+
+.onhover{
+	display:none !important;
+	}
+
+#photo6:hover .onhover{
+	display:block !important;
+	}
 
 
 #logo {
