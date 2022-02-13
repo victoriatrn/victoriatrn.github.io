@@ -1191,7 +1191,7 @@ grid-template-rows: repeat(3, 1fr);
 margin-top: 0;
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 900px) {
 	#galleryvietnam {
 		grid-template-columns: repeat(1, 1fr);
 		grid-template-rows: repeat(6, 1fr);
@@ -1199,7 +1199,7 @@ margin-top: 0;
 	}
   }
 
-  @media screen and (min-width: 700px) {
+  @media screen and (min-width: 901px) {
 	#galleryvietnam {
 		grid-template-columns: repeat(2, 1fr);
 		grid-template-rows: repeat(3, 1fr);
