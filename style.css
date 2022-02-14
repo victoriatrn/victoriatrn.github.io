@@ -1307,3 +1307,52 @@ grid-row-end: 2;
 #illutext {
 	margin-bottom: 11vw
 }
+
+
+/* FISH */
+#frontphotofish {
+	position: relative;
+	height: 40.722vw;
+	margin-top: 3vw;
+	margin-bottom: 5vw;
+}
+
+#galleryfish1 {
+
+	grid-template-rows: repeat(1, 1fr) ; 
+	grid-template-columns: repeat(2, 1fr);
+	margin-top: 0
+	
+
+}
+
+#galleryfish2 {
+	grid-template-columns: repeat(4, 1fr);
+	grid-template-rows: repeat(2, 1fr);
+	margin-top: 2vw;
+}
+
+.imgfish1 {
+	grid-column-start: 1;
+	grid-column-end: 4;
+	grid-row-start: 1;
+	grid-row-end: 2;
+}
+.imgfish2 {
+	grid-column-start: 4;
+	grid-column-end: 5;
+	grid-row-start: 1;
+	grid-row-end: 2;
+}
+.imgfish3 {
+	grid-column-start: 1;
+	grid-column-end: 4;
+	grid-row-start: 2;
+	grid-row-end: 3;
+}
+.imgfish4 {
+	grid-column-start: 4;
+	grid-column-end: 5;
+	grid-row-start: 2;
+	grid-row-end: 3;
+}
