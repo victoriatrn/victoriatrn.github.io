@@ -14,8 +14,9 @@
 }
 * {
 	
-	cursor: url("curseur.png"), text;
-	cursor: url("curseur2.png"), default;
+
+	cursor: url("curseur.png"), default;
+	
 }
 
 
@@ -296,7 +297,7 @@ margin-bottom: auto;
 #imgbleuforme {
 	position: absolute;
 margin-left: -6vw;
-margin-top: -6vw;
+margin-top: -10vw;
 rotate: 15deg;
 }
 
