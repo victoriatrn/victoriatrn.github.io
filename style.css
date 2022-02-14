@@ -1185,13 +1185,9 @@ grid-row-end: 2;
 
 /* VIETNAM*/
 
-#galleryvietnam {
-	grid-template-columns: repeat(2, 1fr);
-grid-template-rows: repeat(3, 1fr);
-margin-top: 0;
-}
 
-@media screen and (max-width: 900px) {
+
+@media screen and (max-device-width: 600px) and (min-device-width:200px){
 	#galleryvietnam {
 		grid-template-columns: repeat(1, 1fr);
 		grid-template-rows: repeat(6, 1fr);
@@ -1199,7 +1195,7 @@ margin-top: 0;
 	}
   }
 
-  @media screen and (min-width: 901px) {
+  @media screen and (min-width: 601px) {
 	#galleryvietnam {
 		grid-template-columns: repeat(2, 1fr);
 		grid-template-rows: repeat(3, 1fr);
