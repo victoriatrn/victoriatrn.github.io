@@ -598,6 +598,7 @@ div.center > figcaption:nth-child(2) {
 	font-family: poppins;
 	padding-left: 3.125em;
 	padding-top: 1em;
+	word-spacing: 1vw;
 }
 
 
