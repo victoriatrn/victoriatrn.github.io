@@ -41,7 +41,7 @@ ul {
     list-style-type: none;
 }
 
-a {
+#nav_a {
 
 	word-spacing: 3vw;
 	font-family: agrandir;
@@ -85,8 +85,8 @@ li {
   }
   
   /* Navbar links on mouse-over */
-  .navbar a:hover {
-	background-color: #000;
+  .navigationbar a:hover {
+	background-color: rgba(77, 73, 73, 0.486);
   }
   
   /* Current/active navbar link */
@@ -471,17 +471,19 @@ width: 90%;
 	margin-top: -5em;
 }
 
-div.center > figcaption:nth-child(2) {
-	padding-top: 0.3125em;
-	font-size: 0.8101851851851852vw;
-	font-style: bold;
-	color: rgb(0, 0, 0);
-	text-align: left;
-	font-family: agrandir;
-	font-weight: normal;
-	text-align: left;
-	padding-bottom: 15.625em;
-}
+
+
+.figcaptionindex {
+		padding-top: 0.28935185185185186vw;
+		font-size: 0.8101851851851852vw;
+		font-style: bold;
+		color: rgb(0, 0, 0);
+		text-align: left;
+		font-family: agrandir;
+		font-weight: normal;
+		text-align: left;
+		padding-bottom: 14.467592592592593vw;
+	}
 
 .titlelist {
 	font-size: 0.8101851851851852vw;
