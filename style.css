@@ -1060,19 +1060,7 @@ margin-bottom: 3.2291666666666665vw;
 	font-family: poppinsreg;
 }
 
-.gallerypotheads{
-	background-color: white;
-	align-items: center;
-	justify-items: center;
-	margin-top: 6em;
-	display: grid;
-	grid-template-columns: repeat(3, 1fr);
-	grid-template-rows: repeat(8, 1fr);
-	grid-gap: 5em;
-	position: relative;
-	padding-left: 2em;
-	padding-right: 2em;
-}
+
 
 .gallery__item--1-pothead{
 	grid-column-start: 1;
@@ -1138,6 +1126,7 @@ grid-column-end: 3;
 grid-row-start: 1;
 grid-row-end: 2;
 }
+
 
 /* PREMIER */
 
@@ -1235,7 +1224,7 @@ grid-row-end: 2;
 
 #gallerypotheads {
 	grid-template-columns: repeat(2, 1fr);
-	grid-template-rows: repeat(2, 1fr);
+	grid-template-rows: repeat(3, 1fr);
 	margin-top: 3vw;
 	margin-left: 14vw;
 	margin-right: 14vw;
