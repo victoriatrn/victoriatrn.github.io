@@ -1349,3 +1349,31 @@ grid-row-end: 2;
 	grid-row-start: 2;
 	grid-row-end: 3;
 }
+
+/* WEB PROJECT*/
+#gallerywebproject{
+grid-template-columns: repeat(1, 1fr);
+grid-template-rows: repeat(2, 1fr);
+margin-top: 3vw;
+margin-left: 14vw;
+margin-right: 14vw;
+
+}
+
+#gallerywebproject2{
+	grid-template-columns: repeat(2, 1fr);
+	grid-template-rows: repeat(2, 1fr);
+	margin-top: 3vw;
+	margin-left: 14vw;
+	margin-right: 14vw;
+grid-gap: 0;
+	}
+
+	#gallerywebproject_solo{
+		grid-template-columns: repeat(1, 1fr);
+		grid-template-rows: repeat(1, 1fr);
+		margin-top: 3vw;
+		margin-left: 14vw;
+		margin-right: 14vw;
+		gap: 8vw;
+		}
