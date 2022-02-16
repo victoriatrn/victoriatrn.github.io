@@ -1369,6 +1369,12 @@ margin-right: 14vw;
 grid-gap: 0;
 	}
 
+	#gallerywebproject2 figure {
+		margin: -2px;
+	}
+
+
+
 	#gallerywebproject_solo{
 		grid-template-columns: repeat(1, 1fr);
 		grid-template-rows: repeat(1, 1fr);
