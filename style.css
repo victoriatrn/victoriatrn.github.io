@@ -41,7 +41,7 @@ ul {
     list-style-type: none;
 }
 
-#nav_a {
+.nav_a {
 
 	word-spacing: 3vw;
 	font-family: agrandir;
