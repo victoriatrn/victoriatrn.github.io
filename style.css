@@ -47,7 +47,7 @@ ul {
 	font-family: agrandir;
 	font-style: bold;
 	color: black;
-	font-size: 0.7523148148148148vw;
+	font-size: 0.89vw;
 	
 
     text-decoration: none;
@@ -130,7 +130,7 @@ li {
 /* 	position: absolute;
     left: 2.8em;
     top: 1.07em; */
-	width: 7.407407407407407vw;
+	width: 10.407vw
 }
 
 #titre
@@ -138,7 +138,7 @@ li {
 	margin-top: 3vw;
 	padding-top: 2.85em;
 	padding-bottom: 0.3vw;
-	font-size: 1vw;
+	font-size: 1.5vw;
 	font-style: bold;
 	color: rgb(0, 0, 0);
 	text-align: center;
@@ -159,7 +159,7 @@ li {
 #DA
 {
 	font-family: agrandir;
-	font-size: 0.7523148148148148vw;
+	font-size: 0.89vw;
 	padding-bottom: 1.875em;
 	margin-bottom: 2vw;
 }
@@ -1278,7 +1278,7 @@ grid-row-end: 2;
   @media only screen and (min-width: 1000px) {
 	#galleryillu {
 		grid-template-columns: repeat(4, 1fr);
-		grid-template-rows: repeat(3, 1fr);
+		grid-template-rows: repeat(2, 1fr);
 		margin-top: 0;
 		margin-bottom: 5vw;
 	}
