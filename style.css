@@ -1319,6 +1319,10 @@ grid-row-end: 2;
 
 }
 
+.spaceCustom {
+	margin-top: 50px;
+}
+
 #galleryfish2 {
 	grid-template-columns: repeat(4, 1fr);
 	grid-template-rows: repeat(1, 1fr);
@@ -1383,3 +1387,4 @@ grid-gap: 0;
 		margin-right: 14vw;
 		gap: 8vw;
 		}
+
